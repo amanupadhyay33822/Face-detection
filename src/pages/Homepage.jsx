@@ -1,10 +1,14 @@
-/* eslint-disable no-unused-vars */
-import React from 'react'
+import React from "react";
+import "./homepage.css"; // Import your CSS file for styling
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
-  )
+    <div className="homepage-container">
+      <div className="homepage-content">
+        Welcome to Home
+      </div>
+    </div>
+  );
 }
 
-export default Homepage
+export default Homepage;

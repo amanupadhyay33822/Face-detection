@@ -1,0 +1,13 @@
+.homepage-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This will make the container take the full height of the viewport */
+    background-color: #f0f0f0; /* You can replace this with your desired background color */
+  }
+  
+  .homepage-content {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
