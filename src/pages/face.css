@@ -1,0 +1,36 @@
+.appvide {
+    display: flex;
+    /* align-items: center; */
+  }
+  
+  .appcanvas {
+    position: absolute;
+    top: 100px;
+  }
+  
+  .myapp {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures the container takes up the full viewport height */
+  }
+  
+  .appvide {
+    position: relative; /* Ensure the video container stays in position */
+  }
+  
+  video {
+    max-width: 100%; /* Ensure the video fits within its container */
+    max-height: 100%;
+    border: 2px solid black; /* Add a border for visual clarity */
+  }
+  
